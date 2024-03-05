@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins' ,sans-serif;
+    overflow-x: hidden;
 }
+
 .home {
   position: relative;
   width: 100%;
@@ -121,7 +123,8 @@ span{
   border-radius: 2rem;
 }
 .services h2 {
-  margin-bottom: 0.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
 }
 
 .services .container .services-box {
@@ -131,8 +134,8 @@ span{
   text-align: center;
   border: 2px solid rgba(121, 180, 131, 0.2);
   transition: all 0.5s ease-in-out;
-  width: calc(66.66% - 0rem); /* Adjusted width for responsiveness */
-  max-width: 300px; /* Set maximum width for the boxes */
+  width: calc(66.66% - 0rem); 
+  max-width: 300px; 
   display: block;
   margin: auto;
 
@@ -146,7 +149,7 @@ span{
 .services .container .services-box h3 {
   color: #fff;
   margin-bottom: 0.5rem;
-  font-size: 1rem; /* Increased font size for better readability */
+  font-size: 1rem;
 }
 
 .services .container .services-box .skills {
@@ -154,15 +157,15 @@ span{
 }
 
 .services .container .services-box .skills img {
-  width: 60%; /* Set image width to 30% of the parent container */
-  max-width: 40px;/* Set maximum width for the images  */
+  width: 60%; 
+  max-width: 40px;
 } 
 
 .services .container .services-box .skills h3 {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* Adjusted gap */
-  font-size: 0.8rem; /* Decreased font size for better readability */
+  gap: 0.5rem; 
+  font-size: 0.8rem; 
 }
 
 /* Media queries for responsiveness */
@@ -176,10 +179,13 @@ span{
 
 
 .portfolio{
-  background: gray;
+
 }
 .portfolio h2{
   margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
   
 }
 .portfolio-container{
@@ -229,3 +235,25 @@ span{
   font-size: 1.6rem;
   margin: .3rem 0 1rem;
 }
+.home-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-left {
+  flex: 2;
+ 
+}
+
+.content-right {
+  flex-basis: 30%; /* Adjust this value as needed */
+  max-width: 40%; /* Adjust this value as needed */
+  margin-left:10%;
+  margin-right: 15%;
+
+ 
+  
+  
+}
+
+
