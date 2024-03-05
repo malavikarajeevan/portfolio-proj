@@ -16,19 +16,22 @@
         <div class="home-content">
             <h3>hello, its me</h3>
             <h1>malavikarajeevan</h1>
-            <h3> and iam </h3>
+            <h3> and iam <span>front end develepor</span></h3>
             <p>iam a webdeveleope sndklkkhgijpok;ljhgyf
                 <br>uttruijoidhddmliukll;udjdjsgsreyrurjfnbafagsjjxn
             </p>
            
             <div class="home-scl">
-                <a href="#"><li class="bx bx1-facebook"></li></a>
-                <a href="#"><li class="bx bx1-facebook"></li></a>
-                <a href="#"><li class="bx bx1-facebook"></li></a>
-                <a href="#"><li class="bx bx1-facebook"></li></a>
+                <a href=""><img src="{% static '/images/gmail.png' %}" style="width: 20px; "></a>
+                <a href="#"><img src="{% static '/images/insta.png' %}" style="width: 20px; "></a>
+                <a href="#"><img src="{% static '/images/whatsapp.png' %}" style="width: 20px; "></a>
+                <a href="#"><img src="{% static '/images/insta.png' %}" style="width: 20px; "></a>
             </div>
             <a href="#" class="btn-box">more about me</a>
         </div>
+        
+
+        
     </section>
     <section class="about" id="about">
         <div class="about-img" style="margin: 30%;">
@@ -41,6 +44,85 @@
             <a href="#" class="btn bg-warning">hire me</a>
         </div>
     </section>
+
+
+    <section class="services" id="services">
+      <h2 class="heading text-center mb-4 mt-4">my<span>skills</span></h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="services-box">
+              <img src="{% static '/images/download.png' %}" alt="Service 1" class="service-image">
+              <h3>front end</h3>
+              <div class="skills">
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>HTML</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>CSS</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Bootstrap</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>JavaScript</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services-box">
+              <img src="{% static '/images/download.png' %}" alt="Service 1" class="service-image">
+              <h3>back end</h3>
+              <div class="skills">
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Python</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Django</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Flask</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>SQL</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services-box">
+              <img src="{% static '/images/download.png' %}" alt="Service 1" class="service-image">
+              <h3>others</h3>
+              <div class="skills">
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Git</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Linux</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>API</h3>
+                <h3><span><img src="{% static '/images/download.png' %}" alt=""></span>Testing</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading text-center mt-4">latest<span>projects</span></h2>
+
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="{% static '/images/p3.jpg' %}" alt="">
+                <div class="portfolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quas officia voluptates nisi maxime veniam ullam <br>consequuntur dolorem error illo aperiam velit, magnam necessitatibus nemo porro eum sunt tempore eos!</p>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="{% static '/images/p3.jpg' %}" alt="">
+                <div class="portfolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quas officia voluptates nisi maxime veniam ullam <br>consequuntur dolorem error illo aperiam velit, magnam necessitatibus nemo porro eum sunt tempore eos!</p>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="{% static '/images/p3.jpg' %}" alt="">
+                <div class="portfolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quas officia voluptates nisi maxime veniam ullam <br>consequuntur dolorem error illo aperiam velit, magnam necessitatibus nemo porro eum sunt tempore eos!</p>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
 </body>
 </html>
 {% endblock %}
